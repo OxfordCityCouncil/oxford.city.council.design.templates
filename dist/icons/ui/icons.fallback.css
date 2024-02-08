@@ -1,0 +1,273 @@
+.user-style--scheme-blue .button .icon-account,
+.icon-account-a11yBlue { background-image: url('png/account-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .button .icon-account,
+.icon-account-a11yCream { background-image: url('png/account-a11yCream.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .button:hover .icon-account,
+.user-style--scheme-cream .button:focus .icon-account,
+.icon-account-a11yGold { background-image: url('png/account-a11yGold.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .button:hover .icon-account,
+.user-style--scheme-high-contrast .button:focus .icon-account,
+.icon-account-a11yGreen { background-image: url('png/account-a11yGreen.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .button:hover .icon-account,
+.user-style--scheme-blue .button:focus .icon-account,
+.icon-account-a11yRed { background-image: url('png/account-a11yRed.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .button .icon-account,
+.icon-account-black { background-image: url('png/account-black.png'); background-repeat: no-repeat; }
+
+.icon-account { background-image: url('png/account.png'); background-repeat: no-repeat; }
+
+.icon-alert-cookie { background-image: url('png/alert-cookie.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .alert--danger::before,
+.user-style--scheme-cream .alert--danger::before,
+.icon-alert-danger-a11yBlue { background-image: url('png/alert-danger-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .alert--danger::before,
+.icon-alert-danger-a11yYellow { background-image: url('png/alert-danger-a11yYellow.png'); background-repeat: no-repeat; }
+
+.alert--danger::before,
+.alert--error::before,
+.icon-alert-danger { background-image: url('png/alert-danger.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .alert--information::before,
+.user-style--scheme-cream .alert--information::before,
+.icon-alert-information-a11yBlue { background-image: url('png/alert-information-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .alert--information::before,
+.icon-alert-information-a11yYellow { background-image: url('png/alert-information-a11yYellow.png'); background-repeat: no-repeat; }
+
+.alert--information::before,
+.icon-alert-information { background-image: url('png/alert-information.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .alert--success::before,
+.user-style--scheme-cream .alert--success::before,
+.icon-alert-success-a11yBlue { background-image: url('png/alert-success-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .alert--success::before,
+.icon-alert-success-a11yYellow { background-image: url('png/alert-success-a11yYellow.png'); background-repeat: no-repeat; }
+
+.alert--success::before,
+.icon-alert-success { background-image: url('png/alert-success.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .alert--warning::before,
+.user-style--scheme-cream .alert--warning::before,
+.icon-alert-warning-a11yBlue { background-image: url('png/alert-warning-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .alert--warning::before,
+.icon-alert-warning-a11yYellow { background-image: url('png/alert-warning-a11yYellow.png'); background-repeat: no-repeat; }
+
+.error-icon::before,
+.form__control--danger > .form__label::before,
+.icon-alert-warning-red { background-image: url('png/alert-warning-red.png'); background-repeat: no-repeat; }
+
+.alert--warning::before,
+.icon-alert-warning { background-image: url('png/alert-warning.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .link-external .icon-external-link,
+.icon-external-link-a11yGold { background-image: url('png/external-link-a11yGold.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .link-external .icon-external-link,
+.icon-external-link-a11yGreen { background-image: url('png/external-link-a11yGreen.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .link-external .icon-external-link,
+.icon-external-link-a11yRed { background-image: url('png/external-link-a11yRed.png'); background-repeat: no-repeat; }
+
+.icon-external-link { background-image: url('png/external-link.png'); background-repeat: no-repeat; }
+
+.nav--primary-navigation .button:hover .icon-header-account-white,
+.nav--primary-navigation .button:focus .icon-header-account-white,
+.nav--primary-navigation .button:active .icon-header-account-white,
+.icon-header-account-standout { background-image: url('png/header-account-standout.png'); background-repeat: no-repeat; }
+
+.icon-header-account-white { background-image: url('png/header-account-white.png'); background-repeat: no-repeat; }
+
+.icon-header-account { background-image: url('png/header-account.png'); background-repeat: no-repeat; }
+
+.icon-header-bookmark-standout { background-image: url('png/header-bookmark-standout.png'); background-repeat: no-repeat; }
+
+.icon-header-bookmark-white { background-image: url('png/header-bookmark-white.png'); background-repeat: no-repeat; }
+
+.icon-header-bookmark { background-image: url('png/header-bookmark.png'); background-repeat: no-repeat; }
+
+.icon-header-menu-standout { background-image: url('png/header-menu-standout.png'); background-repeat: no-repeat; }
+
+.icon-header-menu-white { background-image: url('png/header-menu-white.png'); background-repeat: no-repeat; }
+
+.icon-header-menu { background-image: url('png/header-menu.png'); background-repeat: no-repeat; }
+
+.icon-header-search-primary { background-image: url('png/header-search-primary.png'); background-repeat: no-repeat; }
+
+.icon-header-search { background-image: url('png/header-search.png'); background-repeat: no-repeat; }
+
+.icon-header-translate-standout { background-image: url('png/header-translate-standout.png'); background-repeat: no-repeat; }
+
+.icon-header-translate-white { background-image: url('png/header-translate-white.png'); background-repeat: no-repeat; }
+
+.icon-header-translate { background-image: url('png/header-translate.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .icon-logo,
+.user-style--scheme-cream .icon-logo,
+.icon-logo-a11yBlue { background-image: url('png/logo-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .icon-logo,
+.icon-logo-a11yYellow { background-image: url('png/logo-a11yYellow.png'); background-repeat: no-repeat; }
+
+.icon-logo-crest { background-image: url('png/logo-crest.png'); background-repeat: no-repeat; }
+
+.icon-logo { background-image: url('png/logo.png'); background-repeat: no-repeat; }
+
+.icon-misc-accessibility { background-image: url('png/misc-accessibility.png'); background-repeat: no-repeat; }
+
+.icon-misc-languages { background-image: url('png/misc-languages.png'); background-repeat: no-repeat; }
+
+.icon-pin { background-image: url('png/pin.png'); background-repeat: no-repeat; }
+
+.icon-placeholder { background-image: url('png/placeholder.png'); background-repeat: no-repeat; }
+
+.icon-share { background-image: url('png/share.png'); background-repeat: no-repeat; }
+
+.icon-site-logo-hover { background-image: url('png/site-logo-hover.png'); background-repeat: no-repeat; }
+
+.icon-social-facebook { background-image: url('png/social-facebook.png'); background-repeat: no-repeat; }
+
+.icon-social-instagram { background-image: url('png/social-instagram.png'); background-repeat: no-repeat; }
+
+.icon-social-linkedin { background-image: url('png/social-linkedin.png'); background-repeat: no-repeat; }
+
+.icon-social-newsletter { background-image: url('png/social-newsletter.png'); background-repeat: no-repeat; }
+
+.icon-social-twitter { background-image: url('png/social-twitter.png'); background-repeat: no-repeat; }
+
+.icon-social-youtube { background-image: url('png/social-youtube.png'); background-repeat: no-repeat; }
+
+.icon-toptasks-contact-3-white { background-image: url('png/toptasks-contact-3-white.png'); background-repeat: no-repeat; }
+
+.icon-toptasks-contact-3 { background-image: url('png/toptasks-contact-3.png'); background-repeat: no-repeat; }
+
+.icon-ui-arrow-down-filled { background-image: url('png/ui-arrow-down-filled.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .card .icon-ui-arrow-right,
+.user-style--scheme-blue .widget-navigation .list__link .icon-ui-arrow-right,
+.user-style--scheme-blue .list--navigation .list__item::before,
+.user-style--scheme-blue .list--record .list__item::before,
+.icon-ui-arrow-right-a11yBlue { background-image: url('png/ui-arrow-right-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .card .icon-ui-arrow-right,
+.user-style--scheme-high-contrast .widget-navigation .list__link .icon-ui-arrow-right,
+.user-style--scheme-high-contrast .list--navigation .list__item::before,
+.user-style--scheme-high-contrast .list--record .list__item::before,
+.icon-ui-arrow-right-a11yGreen { background-image: url('png/ui-arrow-right-a11yGreen.png'); background-repeat: no-repeat; }
+
+.list--navigation .list__item::before,
+.list--record .list__item::before,
+.list--grouped .list .list__item::before,
+.icon-ui-arrow-right { background-image: url('png/ui-arrow-right.png'); background-repeat: no-repeat; }
+
+.form__label--checkbox::after,
+.icon-ui-check { background-image: url('png/ui-check.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .form__select,
+.user-style--scheme-cream .form__select,
+.icon-ui-chevron-down-a11yBlue { background-image: url('png/ui-chevron-down-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .form__select,
+.icon-ui-chevron-down-a11yYellow { background-image: url('png/ui-chevron-down-a11yYellow.png'); background-repeat: no-repeat; }
+
+.icon-ui-chevron-down-primary { background-image: url('png/ui-chevron-down-primary.png'); background-repeat: no-repeat; }
+
+.icon-ui-chevron-down-white { background-image: url('png/ui-chevron-down-white.png'); background-repeat: no-repeat; }
+
+.form__select,
+.goog-te-combo,
+.icon-ui-chevron-down { background-image: url('png/ui-chevron-down.png'); background-repeat: no-repeat; }
+
+.icon-ui-chevron-left-black { background-image: url('png/ui-chevron-left-black.png'); background-repeat: no-repeat; }
+
+.icon-ui-chevron-left { background-image: url('png/ui-chevron-left.png'); background-repeat: no-repeat; }
+
+.hero-banner .button:hover .icon,
+.hero-banner .button:focus .icon,
+.hero-banner .button:active .icon,
+.icon-ui-chevron-right-black { background-image: url('png/ui-chevron-right-black.png'); background-repeat: no-repeat; }
+
+.quicklink__link,
+.icon-ui-chevron-right { background-image: url('png/ui-chevron-right.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .back-to-top .icon-ui-chevron-up,
+.icon-ui-chevron-up-a11yBlue { background-image: url('png/ui-chevron-up-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .back-to-top .icon-ui-chevron-up,
+.icon-ui-chevron-up-a11yCream { background-image: url('png/ui-chevron-up-a11yCream.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .back-to-top:hover .icon-ui-chevron-up,
+.user-style--scheme-cream .back-to-top:focus .icon-ui-chevron-up,
+.icon-ui-chevron-up-a11yGold { background-image: url('png/ui-chevron-up-a11yGold.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .back-to-top:hover .icon-ui-chevron-up,
+.user-style--scheme-high-contrast .back-to-top:focus .icon-ui-chevron-up,
+.icon-ui-chevron-up-a11yGreen { background-image: url('png/ui-chevron-up-a11yGreen.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .back-to-top:hover .icon-ui-chevron-up,
+.user-style--scheme-blue .back-to-top:focus .icon-ui-chevron-up,
+.icon-ui-chevron-up-a11yRed { background-image: url('png/ui-chevron-up-a11yRed.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .back-to-top .icon-ui-chevron-up,
+.icon-ui-chevron-up-black { background-image: url('png/ui-chevron-up-black.png'); background-repeat: no-repeat; }
+
+.icon-ui-chevron-up { background-image: url('png/ui-chevron-up.png'); background-repeat: no-repeat; }
+
+.meeting-article .icon-ui-download,
+.icon-ui-download-black { background-image: url('png/ui-download-black.png'); background-repeat: no-repeat; }
+
+.icon-ui-download { background-image: url('png/ui-download.png'); background-repeat: no-repeat; }
+
+.icon-ui-location { background-image: url('png/ui-location.png'); background-repeat: no-repeat; }
+
+.icon-ui-pins { background-image: url('png/ui-pins.png'); background-repeat: no-repeat; }
+
+.icon-ui-print { background-image: url('png/ui-print.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .button .icon-ui-search,
+.icon-ui-search-a11yBlue { background-image: url('png/ui-search-a11yBlue.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .button .icon-ui-search,
+.icon-ui-search-a11yCream { background-image: url('png/ui-search-a11yCream.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-cream .button:hover .icon-ui-search,
+.user-style--scheme-cream .button:focus .icon-ui-search,
+.icon-ui-search-a11yGold { background-image: url('png/ui-search-a11yGold.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .button:hover .icon-ui-search,
+.user-style--scheme-high-contrast .button:focus .icon-ui-search,
+.icon-ui-search-a11yGreen { background-image: url('png/ui-search-a11yGreen.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-blue .button:hover .icon-ui-search,
+.user-style--scheme-blue .button:focus .icon-ui-search,
+.icon-ui-search-a11yRed { background-image: url('png/ui-search-a11yRed.png'); background-repeat: no-repeat; }
+
+.user-style--scheme-high-contrast .button .icon-ui-search,
+.icon-ui-search-black { background-image: url('png/ui-search-black.png'); background-repeat: no-repeat; }
+
+.form--search .icon-ui-search,
+.icon-ui-search-primary { background-image: url('png/ui-search-primary.png'); background-repeat: no-repeat; }
+
+.icon-ui-search-standout { background-image: url('png/ui-search-standout.png'); background-repeat: no-repeat; }
+
+.site-search--hero .button:hover .icon-ui-search,
+.site-search--hero .button:focus .icon-ui-search,
+.site-search--hero .button:active .icon-ui-search,
+.site-search--hero .button .icon-ui-search,
+.icon-ui-search-white { background-image: url('png/ui-search-white.png'); background-repeat: no-repeat; }
+
+.icon-ui-search-yellow { background-image: url('png/ui-search-yellow.png'); background-repeat: no-repeat; }
+
+.icon-ui-search { background-image: url('png/ui-search.png'); background-repeat: no-repeat; }
+
+.form__label--upload::after,
+.icon-ui-upload { background-image: url('png/ui-upload.png'); background-repeat: no-repeat; }
+

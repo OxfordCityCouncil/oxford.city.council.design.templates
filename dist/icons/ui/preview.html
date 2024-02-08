@@ -1,0 +1,152 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Icons Preview!</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-image: linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(transparent 75%, #eee 75%), linear-gradient(transparent 75%, #eee 75%);
+				width: auto;
+				background-size: 10px 10px;
+			}
+		</style>
+		<script>
+			/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+
+!function(){function e(e,t){function n(){!o&&t&&(o=!0,t.call(e))}var o;e.addEventListener&&e.addEventListener("load",n),e.attachEvent&&e.attachEvent("onload",n),"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(e){"use strict";var t=function(t,n,o){function r(e){if(c.body)return e();setTimeout(function(){r(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=o||"all"}var i,c=e.document,d=c.createElement("link");if(n)i=n;else{var l=(c.body||c.getElementsByTagName("head")[0]).childNodes;i=l[l.length-1]}var s=c.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",r(function(){i.parentNode.insertBefore(d,n?i:i.nextSibling)});var u=function(e){for(var t=d.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){u(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=u,u(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(t){var n=function(o,r){"use strict";if(o&&3===o.length){var a=t.navigator,i=t.document,c=t.Image,d=!(!i.createElementNS||!i.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!i.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),l=new c;l.onerror=function(){n.method="png",n.href=o[2],loadCSS(o[2])},l.onload=function(){var t=1===l.width&&1===l.height,a=o[t&&d?0:t?1:2];n.method=t&&d?"svg":t?"datapng":"png",n.href=a,e(loadCSS(a),r)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",i.documentElement.className+=" grunticon"}};n.loadCSS=loadCSS,n.onloadCSS=e,t.grunticon=n}(this),function(e,t){"use strict";var n,o=t.document,r=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var t=!1;o.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},i=function(e,t){if(n&&!t)return n;n={};var o,r,a,i,c,d;if(!(o=e.sheet))return n;r=o.cssRules?o.cssRules:o.rules;for(var l=0;l<r.length;l++)a=r[l].cssText,i="grunticon:"+r[l].selectorText,(c=a.split(");")[0].match(/US\-ASCII\,([^"']+)/))&&c[1]&&(d=decodeURIComponent(c[1]),n[i]=d);return n},c=function(e,t){var n,r,a,i,c;t?n=e:(t=e,n=o),i="data-grunticon-embed";for(var d in t){c=d.slice("grunticon:".length);try{r=n.querySelectorAll(c)}catch(e){continue}a=[];for(var l=0;l<r.length;l++)null!==r[l].getAttribute(i)&&a.push(r[l]);if(a.length)for(l=0;l<a.length;l++)a[l].innerHTML=t[d],a[l].style.backgroundImage="none",a[l].removeAttribute(i)}return a},d=function(t,n){"svg"===e.method&&r(function(){var o=i(a(e.href));"function"==typeof n?(c(t,o),n()):c(o),"function"==typeof t&&t()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+			
+			grunticon(["icons.data.svg.css", "icons.data.png.css", "icons.fallback.css"], grunticon.svgLoadedCallback);
+		</script>
+		<noscript><link href="icons.fallback.css" rel="stylesheet"></noscript>
+	</head>
+	<body>
+
+		<h1>CUSTOM PREVIEW - you can change this in the previewTemplate option</h1>
+			<pre><code>.icon-account-a11yBlue:</code></pre><div class="icon-account-a11yBlue" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account-a11yCream:</code></pre><div class="icon-account-a11yCream" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account-a11yGold:</code></pre><div class="icon-account-a11yGold" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account-a11yGreen:</code></pre><div class="icon-account-a11yGreen" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account-a11yRed:</code></pre><div class="icon-account-a11yRed" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account-black:</code></pre><div class="icon-account-black" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-account:</code></pre><div class="icon-account" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-alert-cookie:</code></pre><div class="icon-alert-cookie" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-alert-danger-a11yBlue:</code></pre><div class="icon-alert-danger-a11yBlue" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-danger-a11yYellow:</code></pre><div class="icon-alert-danger-a11yYellow" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-danger:</code></pre><div class="icon-alert-danger" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-information-a11yBlue:</code></pre><div class="icon-alert-information-a11yBlue" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-information-a11yYellow:</code></pre><div class="icon-alert-information-a11yYellow" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-information:</code></pre><div class="icon-alert-information" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-success-a11yBlue:</code></pre><div class="icon-alert-success-a11yBlue" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-success-a11yYellow:</code></pre><div class="icon-alert-success-a11yYellow" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-success:</code></pre><div class="icon-alert-success" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-warning-a11yBlue:</code></pre><div class="icon-alert-warning-a11yBlue" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-warning-a11yYellow:</code></pre><div class="icon-alert-warning-a11yYellow" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-warning-red:</code></pre><div class="icon-alert-warning-red" style="width: 48px; height: 48px;" ></div><hr/>
+			<pre><code>.icon-alert-warning:</code></pre><div class="icon-alert-warning" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-external-link-a11yGold:</code></pre><div class="icon-external-link-a11yGold" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-external-link-a11yGreen:</code></pre><div class="icon-external-link-a11yGreen" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-external-link-a11yRed:</code></pre><div class="icon-external-link-a11yRed" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-external-link:</code></pre><div class="icon-external-link" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-header-account-standout:</code></pre><div class="icon-header-account-standout" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-account-white:</code></pre><div class="icon-header-account-white" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-account:</code></pre><div class="icon-header-account" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-bookmark-standout:</code></pre><div class="icon-header-bookmark-standout" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-bookmark-white:</code></pre><div class="icon-header-bookmark-white" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-bookmark:</code></pre><div class="icon-header-bookmark" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-menu-standout:</code></pre><div class="icon-header-menu-standout" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-menu-white:</code></pre><div class="icon-header-menu-white" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-menu:</code></pre><div class="icon-header-menu" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-search-primary:</code></pre><div class="icon-header-search-primary" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-search:</code></pre><div class="icon-header-search" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-translate-standout:</code></pre><div class="icon-header-translate-standout" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-translate-white:</code></pre><div class="icon-header-translate-white" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-header-translate:</code></pre><div class="icon-header-translate" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-logo-a11yBlue:</code></pre><div class="icon-logo-a11yBlue" style="width: 244px; height: 39px;" ></div><hr/>
+			<pre><code>.icon-logo-a11yYellow:</code></pre><div class="icon-logo-a11yYellow" style="width: 244px; height: 39px;" ></div><hr/>
+			<pre><code>.icon-logo-crest:</code></pre><div class="icon-logo-crest" style="width: 55px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-logo:</code></pre><div class="icon-logo" style="width: 266px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-misc-accessibility:</code></pre><div class="icon-misc-accessibility" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-misc-languages:</code></pre><div class="icon-misc-languages" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-pin:</code></pre><div class="icon-pin" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-placeholder:</code></pre><div class="icon-placeholder" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-share:</code></pre><div class="icon-share" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-site-logo-hover:</code></pre><div class="icon-site-logo-hover" style="width: 150px; height: 150px;" ></div><hr/>
+			<pre><code>.icon-social-facebook:</code></pre><div class="icon-social-facebook" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-social-instagram:</code></pre><div class="icon-social-instagram" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-social-linkedin:</code></pre><div class="icon-social-linkedin" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-social-newsletter:</code></pre><div class="icon-social-newsletter" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-social-twitter:</code></pre><div class="icon-social-twitter" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-social-youtube:</code></pre><div class="icon-social-youtube" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptasks-contact-3-white:</code></pre><div class="icon-toptasks-contact-3-white" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptasks-contact-3:</code></pre><div class="icon-toptasks-contact-3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-ui-arrow-down-filled:</code></pre><div class="icon-ui-arrow-down-filled" style="width: 15px; height: 15px;" ></div><hr/>
+			<pre><code>.icon-ui-arrow-right-a11yBlue:</code></pre><div class="icon-ui-arrow-right-a11yBlue" style="width: 30px; height: 30px;" ></div><hr/>
+			<pre><code>.icon-ui-arrow-right-a11yGreen:</code></pre><div class="icon-ui-arrow-right-a11yGreen" style="width: 30px; height: 30px;" ></div><hr/>
+			<pre><code>.icon-ui-arrow-right:</code></pre><div class="icon-ui-arrow-right" style="width: 30px; height: 30px;" ></div><hr/>
+			<pre><code>.icon-ui-check:</code></pre><div class="icon-ui-check" style="width: 25px; height: 25px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-down-a11yBlue:</code></pre><div class="icon-ui-chevron-down-a11yBlue" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-down-a11yYellow:</code></pre><div class="icon-ui-chevron-down-a11yYellow" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-down-primary:</code></pre><div class="icon-ui-chevron-down-primary" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-down-white:</code></pre><div class="icon-ui-chevron-down-white" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-down:</code></pre><div class="icon-ui-chevron-down" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-left-black:</code></pre><div class="icon-ui-chevron-left-black" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-left:</code></pre><div class="icon-ui-chevron-left" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-right-black:</code></pre><div class="icon-ui-chevron-right-black" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-right:</code></pre><div class="icon-ui-chevron-right" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-a11yBlue:</code></pre><div class="icon-ui-chevron-up-a11yBlue" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-a11yCream:</code></pre><div class="icon-ui-chevron-up-a11yCream" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-a11yGold:</code></pre><div class="icon-ui-chevron-up-a11yGold" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-a11yGreen:</code></pre><div class="icon-ui-chevron-up-a11yGreen" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-a11yRed:</code></pre><div class="icon-ui-chevron-up-a11yRed" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up-black:</code></pre><div class="icon-ui-chevron-up-black" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-chevron-up:</code></pre><div class="icon-ui-chevron-up" style="width: 32px; height: 32px;" ></div><hr/>
+			<pre><code>.icon-ui-download-black:</code></pre><div class="icon-ui-download-black" style="width: 50px; height: 50px;" ></div><hr/>
+			<pre><code>.icon-ui-download:</code></pre><div class="icon-ui-download" style="width: 50px; height: 50px;" ></div><hr/>
+			<pre><code>.icon-ui-location:</code></pre><div class="icon-ui-location" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-ui-pins:</code></pre><div class="icon-ui-pins" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-ui-print:</code></pre><div class="icon-ui-print" style="width: 74px; height: 74px;" ></div><hr/>
+			<pre><code>.icon-ui-search-a11yBlue:</code></pre><div class="icon-ui-search-a11yBlue" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-a11yCream:</code></pre><div class="icon-ui-search-a11yCream" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-a11yGold:</code></pre><div class="icon-ui-search-a11yGold" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-a11yGreen:</code></pre><div class="icon-ui-search-a11yGreen" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-a11yRed:</code></pre><div class="icon-ui-search-a11yRed" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-black:</code></pre><div class="icon-ui-search-black" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-primary:</code></pre><div class="icon-ui-search-primary" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-standout:</code></pre><div class="icon-ui-search-standout" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-white:</code></pre><div class="icon-ui-search-white" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search-yellow:</code></pre><div class="icon-ui-search-yellow" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-search:</code></pre><div class="icon-ui-search" style="width: 60px; height: 60px;" ></div><hr/>
+			<pre><code>.icon-ui-upload:</code></pre><div class="icon-ui-upload" style="width: 50px; height: 50px;" ></div><hr/>
+
+		<h2 id="embedded-svg-option">Embedded SVG option</h2>
+		<p>(The <code>data-grunticon-embed</code> attribute tells grunticon to inject SVG inline):</p>
+
+		<pre><code>icon-burger:</code></pre><div class="icon-burger" data-grunticon-embed style="width: px; height: px;" ></div><hr/>
+
+		<style>
+			.icon-burger {
+				width: 32px;
+				height: 30px;
+				display: inline-block;
+			}
+			  .icon-burger.alt .cheese {
+		                fill: red;
+		            }
+				 .icon-burger.alt .buns {
+		                fill: orange;
+		            }
+				  .icon-burger.alt .burger {
+		                fill: yellow;
+		            }
+		 		 .icon-burger.alt .lettuce {
+		                fill: green;
+		            }
+
+		</style>
+
+		<pre><code>icon-burger (styled variation):</code></pre><div class="icon-burger alt" data-grunticon-embed></div><hr/>
+
+
+
+</body>
+</html>
