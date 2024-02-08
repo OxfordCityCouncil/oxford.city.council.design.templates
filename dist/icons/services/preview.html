@@ -1,0 +1,121 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Icons Preview!</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-image: linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(transparent 75%, #eee 75%), linear-gradient(transparent 75%, #eee 75%);
+				width: auto;
+				background-size: 10px 10px;
+			}
+		</style>
+		<script>
+			/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+
+!function(){function e(e,t){function n(){!o&&t&&(o=!0,t.call(e))}var o;e.addEventListener&&e.addEventListener("load",n),e.attachEvent&&e.attachEvent("onload",n),"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(e){"use strict";var t=function(t,n,o){function r(e){if(c.body)return e();setTimeout(function(){r(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=o||"all"}var i,c=e.document,d=c.createElement("link");if(n)i=n;else{var l=(c.body||c.getElementsByTagName("head")[0]).childNodes;i=l[l.length-1]}var s=c.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",r(function(){i.parentNode.insertBefore(d,n?i:i.nextSibling)});var u=function(e){for(var t=d.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){u(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=u,u(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(t){var n=function(o,r){"use strict";if(o&&3===o.length){var a=t.navigator,i=t.document,c=t.Image,d=!(!i.createElementNS||!i.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!i.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),l=new c;l.onerror=function(){n.method="png",n.href=o[2],loadCSS(o[2])},l.onload=function(){var t=1===l.width&&1===l.height,a=o[t&&d?0:t?1:2];n.method=t&&d?"svg":t?"datapng":"png",n.href=a,e(loadCSS(a),r)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",i.documentElement.className+=" grunticon"}};n.loadCSS=loadCSS,n.onloadCSS=e,t.grunticon=n}(this),function(e,t){"use strict";var n,o=t.document,r=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var t=!1;o.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},i=function(e,t){if(n&&!t)return n;n={};var o,r,a,i,c,d;if(!(o=e.sheet))return n;r=o.cssRules?o.cssRules:o.rules;for(var l=0;l<r.length;l++)a=r[l].cssText,i="grunticon:"+r[l].selectorText,(c=a.split(");")[0].match(/US\-ASCII\,([^"']+)/))&&c[1]&&(d=decodeURIComponent(c[1]),n[i]=d);return n},c=function(e,t){var n,r,a,i,c;t?n=e:(t=e,n=o),i="data-grunticon-embed";for(var d in t){c=d.slice("grunticon:".length);try{r=n.querySelectorAll(c)}catch(e){continue}a=[];for(var l=0;l<r.length;l++)null!==r[l].getAttribute(i)&&a.push(r[l]);if(a.length)for(l=0;l<a.length;l++)a[l].innerHTML=t[d],a[l].style.backgroundImage="none",a[l].removeAttribute(i)}return a},d=function(t,n){"svg"===e.method&&r(function(){var o=i(a(e.href));"function"==typeof n?(c(t,o),n()):c(o),"function"==typeof t&&t()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+			
+			grunticon(["icons.data.svg.css", "icons.data.png.css", "icons.fallback.css"], grunticon.svgLoadedCallback);
+		</script>
+		<noscript><link href="icons.fallback.css" rel="stylesheet"></noscript>
+	</head>
+	<body>
+
+		<h1>CUSTOM PREVIEW - you can change this in the previewTemplate option</h1>
+			<pre><code>.icon-toptask_apply_1:</code></pre><div class="icon-toptask_apply_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_apply_2:</code></pre><div class="icon-toptask_apply_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_arrow_3:</code></pre><div class="icon-toptask_arrow_3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_arrow_4:</code></pre><div class="icon-toptask_arrow_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_benefits_1:</code></pre><div class="icon-toptask_benefits_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_benefits_3:</code></pre><div class="icon-toptask_benefits_3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_benefits_5:</code></pre><div class="icon-toptask_benefits_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_bins-recycling-1:</code></pre><div class="icon-toptask_bins-recycling-1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_bins-recycling-2:</code></pre><div class="icon-toptask_bins-recycling-2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_bins-recycling-3:</code></pre><div class="icon-toptask_bins-recycling-3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_bins-recycling-4:</code></pre><div class="icon-toptask_bins-recycling-4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_births_marriages_deaths_1:</code></pre><div class="icon-toptask_births_marriages_deaths_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_business_1:</code></pre><div class="icon-toptask_business_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_business_2:</code></pre><div class="icon-toptask_business_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_business_3:</code></pre><div class="icon-toptask_business_3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_business_7:</code></pre><div class="icon-toptask_business_7" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_children_families_1:</code></pre><div class="icon-toptask_children_families_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_children_families_5:</code></pre><div class="icon-toptask_children_families_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_contact_1:</code></pre><div class="icon-toptask_contact_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_contact_2:</code></pre><div class="icon-toptask_contact_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_council_tax_1:</code></pre><div class="icon-toptask_council_tax_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_council_tax_4:</code></pre><div class="icon-toptask_council_tax_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_environment_landscape_1:</code></pre><div class="icon-toptask_environment_landscape_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_environment_landscape_7:</code></pre><div class="icon-toptask_environment_landscape_7" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_gardening_2:</code></pre><div class="icon-toptask_gardening_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_have_your_say_4:</code></pre><div class="icon-toptask_have_your_say_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_have_your_say_5:</code></pre><div class="icon-toptask_have_your_say_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_health_socialcare_5:</code></pre><div class="icon-toptask_health_socialcare_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_housing_1:</code></pre><div class="icon-toptask_housing_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_housing_5:</code></pre><div class="icon-toptask_housing_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_in_myarea_2:</code></pre><div class="icon-toptask_in_myarea_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_in_myarea_3:</code></pre><div class="icon-toptask_in_myarea_3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_jobs_volunteering_1:</code></pre><div class="icon-toptask_jobs_volunteering_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_leisure_culture_3:</code></pre><div class="icon-toptask_leisure_culture_3" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_leisure_culture_4:</code></pre><div class="icon-toptask_leisure_culture_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_leisure_culture_6:</code></pre><div class="icon-toptask_leisure_culture_6" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_libraries_museums_4:</code></pre><div class="icon-toptask_libraries_museums_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_libraries_museums_5:</code></pre><div class="icon-toptask_libraries_museums_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_news_2:</code></pre><div class="icon-toptask_news_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_news_6:</code></pre><div class="icon-toptask_news_6" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_parking_transport_roads_2:</code></pre><div class="icon-toptask_parking_transport_roads_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_parking_transport_roads_5:</code></pre><div class="icon-toptask_parking_transport_roads_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_pay_1:</code></pre><div class="icon-toptask_pay_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_pay_4:</code></pre><div class="icon-toptask_pay_4" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_people_communities_2:</code></pre><div class="icon-toptask_people_communities_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_people_communities_7:</code></pre><div class="icon-toptask_people_communities_7" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_planning_building_2:</code></pre><div class="icon-toptask_planning_building_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_planning_building_5:</code></pre><div class="icon-toptask_planning_building_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_report_1:</code></pre><div class="icon-toptask_report_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_report_2:</code></pre><div class="icon-toptask_report_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_request_1:</code></pre><div class="icon-toptask_request_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_request_5:</code></pre><div class="icon-toptask_request_5" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_schools_education_2:</code></pre><div class="icon-toptask_schools_education_2" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_facebook:</code></pre><div class="icon-toptask_social_facebook" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_flickr:</code></pre><div class="icon-toptask_social_flickr" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_instagram:</code></pre><div class="icon-toptask_social_instagram" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_linkedin:</code></pre><div class="icon-toptask_social_linkedin" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_twitter:</code></pre><div class="icon-toptask_social_twitter" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_social_youtube:</code></pre><div class="icon-toptask_social_youtube" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_upcoming_events_1:</code></pre><div class="icon-toptask_upcoming_events_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_upcoming_events_8:</code></pre><div class="icon-toptask_upcoming_events_8" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_voting_7:</code></pre><div class="icon-toptask_voting_7" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_your_council_1:</code></pre><div class="icon-toptask_your_council_1" style="width: 64px; height: 64px;" ></div><hr/>
+			<pre><code>.icon-toptask_your_council_4:</code></pre><div class="icon-toptask_your_council_4" style="width: 64px; height: 64px;" ></div><hr/>
+
+		<h2 id="embedded-svg-option">Embedded SVG option</h2>
+		<p>(The <code>data-grunticon-embed</code> attribute tells grunticon to inject SVG inline):</p>
+
+		<pre><code>icon-burger:</code></pre><div class="icon-burger" data-grunticon-embed style="width: px; height: px;" ></div><hr/>
+
+		<style>
+			.icon-burger {
+				width: 32px;
+				height: 30px;
+				display: inline-block;
+			}
+			  .icon-burger.alt .cheese {
+		                fill: red;
+		            }
+				 .icon-burger.alt .buns {
+		                fill: orange;
+		            }
+				  .icon-burger.alt .burger {
+		                fill: yellow;
+		            }
+		 		 .icon-burger.alt .lettuce {
+		                fill: green;
+		            }
+
+		</style>
+
+		<pre><code>icon-burger (styled variation):</code></pre><div class="icon-burger alt" data-grunticon-embed></div><hr/>
+
+
+
+</body>
+</html>
